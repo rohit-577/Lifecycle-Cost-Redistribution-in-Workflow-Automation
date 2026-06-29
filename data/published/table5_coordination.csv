@@ -1,0 +1,5 @@
+task,branches,failure_modes,parallel_paths,sync_points,compensation_actions
+T1,0,1,1,0,0
+T2,1,2,1,0,0
+T3,3,3,1,0,0
+T4,0,4,2,2,2

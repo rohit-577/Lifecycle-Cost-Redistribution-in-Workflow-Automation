@@ -1,0 +1,5 @@
+Task,Steps,Category,Coordination_Pattern,Failure_Model
+T1,5,API / Data Chaining,Sequential linear,Malformed input
+T2,10,Error Recovery,Linear with retry branches,"API timeout, credential miss"
+T3,12,Branching Logic,Nested decision tree,Schema mismatch
+T4,18,Distributed Orchestration,"Parallel join, compensation","Partial failure, race condition"

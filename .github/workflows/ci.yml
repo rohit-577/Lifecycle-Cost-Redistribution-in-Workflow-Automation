@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check file structure
+      run: |
+        test -f README.md
+        test -f LICENSE
+        test -f CITATION.cff
+        test -d paper/pdf
+        test -d data/published
+        test -d benchmark/task_definitions
+        test -d replication
+        echo "Structure validation passed"
+    - name: Validate CSV data
+      run: |
+        python -c "
+import csv
+with open('data/published/table10_raw_trials.csv') as f:
+    reader = csv.DictReader(f)
+    rows = list(reader)
+    assert len(rows) == 60, f'Expected 60 rows, got {len(rows)}'
+    print(f'Data validation passed: {len(rows)} trials')
+        "

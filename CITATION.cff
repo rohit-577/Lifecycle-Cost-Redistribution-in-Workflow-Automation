@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the associated paper."
+title: "Lifecycle Cost Redistribution in Workflow Automation: An Exploratory Benchmark of Code, Visual, and AI Paradigms"
+authors:
+  - family-names: "Rohit"
+    given-names: "R."
+    orcid: ""
+    affiliation: "PES University, Department of Computer Science (AI & ML)"
+    email: "rohit.r@pes.edu"
+version: 1.0.0
+date-released: 2025-03-12
+type: article
+repository-code: "https://github.com/rohit-577/Lifecycle-Cost-Redistribution-in-Workflow-Automation"
+url: "https://github.com/rohit-577/Lifecycle-Cost-Redistribution-in-Workflow-Automation"
+keywords:
+  - "workflow automation"
+  - "low-code"
+  - "visual programming"
+  - "LLM code generation"
+  - "empirical benchmark"
+  - "software maintainability"
+  - "coordination complexity"
+  - "complexity displacement hypothesis"
+license: MIT

@@ -1,0 +1,5 @@
+task,python_dominant,n8n_dominant,ai_dominant
+T1,IC (73%),IC (66%),IC (39%)
+T2,IC (78%),IC (59%),IC (38%)
+T3,IC (65%),IC (69%),MC (25%) / RC (25%)
+T4,IC (80%),RC (33%),RC (46%)

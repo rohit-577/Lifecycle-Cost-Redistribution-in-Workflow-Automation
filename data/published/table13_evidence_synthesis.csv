@@ -1,0 +1,7 @@
+Finding,Supportive_Evidence,Non_Supportive_Evidence
+IC decreases with abstraction,"AI mean IC = 34.5s vs Python mean IC = 180.5s. Reduction stable across all four tasks (80.9%)","Python T3 IC (127s) lower than T2 (183s), showing IC not strictly monotonic with task difficulty for code"
+RC escalates for non-code paradigms,"n8n 20.4x (T1: 5s -> T4: 102s); AI 4.9x (T1: 18s -> T4: 88s)","Python RC flat across all tasks (19-23s). RC escalation limited to coordination-heavy task (T4)"
+ACE: TWC ratio compresses,"AI/Python ratio: 2.3x (T1) -> 1.9x (T4). n8n/Python: 1.8x (T1) -> 1.2x (T4)","Only four data points; no functional form established; compression driven primarily by T4"
+LCRI ordering: Python < n8n < AI,"Consistent across all four tasks. Python: 19.7-35.2%; n8n: 31.2-52.3%; AI: 60.6-83.2%","n8n LCRI drops at T3 (31.2%), breaking monotonic increase observed at T1-T2"
+Non-monotonic effects,"T2-T3 Python IC inversion, T3-T4 AI IC inversion, n8n T3 LCRI drop","Alternative interpretation: IC reflects task-specific features (dependency breadth, design pattern familiarity) rather than CDH"
+Verification cost invariant,"VC ranges 14-31s across all cells; mean VC approx 18-20s","Limited by standardized checklist; production verification (regression, security) may differ"

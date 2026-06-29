@@ -1,0 +1,1 @@
+You are a workflow automation expert. Create a Python script that reads a CSV file with columns id, name, value, category, timestamp. Remove any rows where value is empty or non-numeric. Cast value to float. Group records by category. Export the result as a JSON file. The input file path is 'input.csv' and the output file path is 'output.json'. Handle errors gracefully.
