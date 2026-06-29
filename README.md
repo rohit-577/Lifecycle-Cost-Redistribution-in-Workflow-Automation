@@ -133,7 +133,7 @@ See [replication/quickstart.md](replication/quickstart.md) for step-by-step inst
   title     = {Lifecycle Cost Redistribution in Workflow Automation:
                An Exploratory Benchmark of Code, Visual, and AI Paradigms},
   author    = {Rohit, R.},
-  journal   = {Proceedings of the ACM Conference},
+  journal   = {Proceedings of the Conference}
   year      = {2025},
   note      = {Artifact evaluation package available at
                \url{https://github.com/rohit-577/Lifecycle-Cost-Redistribution-in-Workflow-Automation}}
