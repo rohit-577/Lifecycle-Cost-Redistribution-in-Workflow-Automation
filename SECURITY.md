@@ -5,7 +5,7 @@
 This repository contains research artifacts and benchmark data. If you discover a security vulnerability in the code or scripts provided:
 
 1. **Do not** open a public issue.
-2. Contact the author directly at rohit.r@pes.edu.
+2. Contact the author directly at rohitravikanth@gmail.com.
 3. Provide a detailed description of the vulnerability and steps to reproduce.
 
 ## Scope

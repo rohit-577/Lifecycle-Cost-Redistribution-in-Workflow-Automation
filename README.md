@@ -148,5 +148,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **Rohit R**  
 Department of Computer Science (AI & ML)  
-PES University, Bengaluru, Karnataka, India 
+PES University, Bengaluru, Karnataka, India  
 rohitravikanth@gmail.com
